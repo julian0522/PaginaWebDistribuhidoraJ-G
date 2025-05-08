@@ -1,6 +1,6 @@
 ---
 name: Nemocrop Sc
-img: /public/productos/NemocropSc.webp
+img: /productos/NemocropSc.webp
 description: Nematicida biológico basado en Paecilomyces lilacinus, eficaz contra huevos, juveniles y adultos de nematodos.
 descriptionLong: >
   Es un nematicida biológico producido con una cepa patógena natural y selectiva de Paecilomyces lilacinus, un microorganismo de comprobada acción sobre huevos, estados juveniles y adultos de diferentes géneros de nematodos.

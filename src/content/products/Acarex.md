@@ -1,6 +1,6 @@
 ---
 name: Acarex
-img: /public/productos/Acarex.webp
+img: /productos/Acarex.webp
 description: Acaricida natural basado en Paecilomyces fumosoroseus cepa PF2, efectivo contra artrópodos del orden Acarina, con microorganismos 100% naturales.
 descriptionLong: >
   Es un acaricida producido con una cepa patógena natural y selectiva de Paecilomyces fumosoroseus cepa PF2, capaz de parasitar artrópodos del orden Acarina principalmente.

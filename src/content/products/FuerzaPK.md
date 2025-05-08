@@ -1,6 +1,6 @@
 ---
 name: Fuerza PK
-img: /public/productos/FuerzaPK.webp
+img: /productos/FuerzaPK.webp
 description: Fosfito de potasio con ácido salicílico que mejora la disponibilidad de nutrientes, activa los procesos metabólicos, favorece la fotosíntesis y refuerza la resistencia de las plantas a plagas y enfermedades.
 descriptionLong: >
   Es un fosfito de potasio + ácido salicílico. Cuando se aplica fosfito al suelo, este se vuelve más disponible para los microorganismos y las raíces de las plantas, activa los procesos metabólicos y fisiológicos de la planta, produciendo una mejor actividad fotosintética. 

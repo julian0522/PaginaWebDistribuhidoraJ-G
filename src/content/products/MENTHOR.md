@@ -1,6 +1,6 @@
 ---
 name: Menthor
-img: /public/productos/Menthor.webp
+img: /productos/Menthor.webp
 description: Fertilizante ideal para mezclas físicas con NPK, el cual se adapta a todas las etapas fisiológicas del cultivo, mejorando los rendimientos.
 descriptionLong: >
   Es un fertilizante ideal para mezclas físicas con NPK, el cual se adapta a todas las etapas fisiológicas del cultivo, mejorando los rendimientos. Los elementos menores, por su presencia, le permiten establecer un equilibrio fisiológico, aumentando su metabolismo y otras funciones dentro de la planta. 

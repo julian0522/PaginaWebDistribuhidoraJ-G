@@ -1,6 +1,6 @@
 ---
 name: Multihojas
-img: /public/productos/Multihojas.webp
+img: /productos/Multihojas.webp
 description: Formulado con microelementos quelatados, de rápida asimilación y alta compatibilidad con agroquímicos y otros fertilizantes.
 descriptionLong: >
   Formulado con microelementos capaces de formar complejos con agentes quelantes rápidamente asimilables por la planta, es altamente compatible con la mayoría de agroquímicos. Se puede usar solo o en mezcla con otros fertilizantes, previa comprobación de compatibilidad.

@@ -1,6 +1,6 @@
 ---
 name: Silvercrop
-img: /public/productos/Silvercrop.webp
+img: /productos/Silvercrop.webp
 description: Nematicida vegetal con ruda, quillay y ajo, eficaz contra todas las etapas de los nematodos.
 descriptionLong: >
   Nematicida a base de extractos vegetales con extracto de ruda, quillay y ajo, eficaz para el control de nematodos, con acción comprobada sobre huevos, estados juveniles y adultos de diferentes géneros de nematodos.

@@ -1,4 +1,4 @@
 ---
 name: Biofertilizantes Descomponedores
-img: /public/categorias/Biofertilizantes-Descomponedores.webp
+img: /categorias/Biofertilizantes-Descomponedores.webp
 ---

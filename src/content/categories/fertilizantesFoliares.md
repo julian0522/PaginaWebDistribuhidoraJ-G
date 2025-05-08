@@ -1,4 +1,4 @@
 ---
 name: Fertilizantes Foliares
-img: /public/categorias/Fertilizantes-Foliares.webp
+img: /categorias/Fertilizantes-Foliares.webp
 ---

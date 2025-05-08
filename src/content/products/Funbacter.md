@@ -1,6 +1,6 @@
 ---
 name: Funbacter
-img: /public/productos/Funbacter.webp
+img: /productos/Funbacter.webp
 description: Fungicida, bactericida y viricida de amplio espectro, diseñado para el control de bacterias, hongos, algas y algunos virus, de uso preventivo y curativo.
 descriptionLong: >
   Fungicida, bactericida, viricida, protectante de contacto y de amplio espectro, de uso preventivo y curativo. Es un producto a base de N-ALQUIL, DIMETIL BENCIL AMONIO, sales de amonio cuaternario, específicamente diseñado para el control de bacterias, hongos, algas y algunos virus sensibles al ingrediente activo.

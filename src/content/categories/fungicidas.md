@@ -1,4 +1,4 @@
 ---
 name: Fungicidas
-img: /public/categorias/Fungicidas.webp
+img: /categorias/Fungicidas.webp
 ---

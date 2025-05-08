@@ -1,4 +1,4 @@
 ---
 name: Nematicidas
-img: /public/categorias/Nematicidas.webp
+img: /categorias/Nematicidas.webp
 ---

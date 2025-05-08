@@ -1,6 +1,6 @@
 ---
 name: Nufosol Plus
-img: /public/productos/NufosolPlus.webp
+img: /productos/NufosolPlus.webp
 description: Biofertilizante microbiológico que mejora la disponibilidad de nutrientes, recicla desechos orgánicos y optimiza la estructura y fertilidad del suelo, con microorganismos 100% naturales.
 descriptionLong: >
   Microorganismos eficientes que actúan como biofertilizante microbiológico del suelo. Aumentan la disponibilidad de nutrientes mediante la liberación de fósforo y fijación de nitrógeno al suelo, reutilizan los desechos orgánicos y reciclan nutrientes, mejorando la estructura y fertilidad.

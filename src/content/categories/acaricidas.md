@@ -1,4 +1,4 @@
 ---
 name: Acaricidas
-img: /public/categorias/Acaricidas.webp
+img: /categorias/Acaricidas.webp
 ---

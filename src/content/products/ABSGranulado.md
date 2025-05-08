@@ -1,6 +1,6 @@
 ---
 name: ABS Granulado
-img: /public/productos/ABSGranulado.webp
+img: /productos/ABSGranulado.webp
 description: Inoculante microbiano de origen 100% biológico que contiene más de 300 millones de UFC de microorganismos en formato sólido por cada gramo de producto.
 descriptionLong: > 
   Es un inoculante microbiano de origen 100% biológico que contiene más de 300 millones de UFC de microorganismos en formato sólido por cada gramo de producto. 

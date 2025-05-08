@@ -1,6 +1,6 @@
 ---
 name: Bactrial
-img: /public/productos/Bactrial.webp
+img: /productos/Bactrial.webp
 description: Fungicida y bactericida compuesto por Bacillus amyloliquefaciens, Agrobacterium radiobacter K84 y Bacillus pumillus, con microorganismos 100% naturales.
 descriptionLong: >
   Es un fungicida y bactericida compuesto por Bacillus amyloliquefaciens, Agrobacterium radiobacter K84 y Bacillus pumillus.

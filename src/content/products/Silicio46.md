@@ -1,6 +1,6 @@
 ---
 name: Silicio 46
-img: /public/productos/Silicio46.webp
+img: /productos/Silicio46.webp
 description: Biofertilizante orgánico con alto contenido de silicio y microorganismos benéficos que mejora la absorción de nutrientes y fortalece la planta contra plagas y enfermedades.
 descriptionLong: >
   SILICIO 46, Ca + Mg es un biofertilizante formulado con materia orgánica, biomasa vegetal mineralizada y más de 240 millones de UFC (unidades formadoras de colonias) de microorganismos benéficos por gramo de producto, que facilita la asimilación de nutrientes por parte de la planta. 

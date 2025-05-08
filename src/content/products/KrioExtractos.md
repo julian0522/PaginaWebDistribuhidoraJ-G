@@ -1,6 +1,6 @@
 ---
 name: Krio Extractos
-img: /public/productos/KrioExtractos.webp
+img: /productos/KrioExtractos.webp
 description: Extracto vegetal que controla, repele y confunde plagas, afectando su alimentación, reproducción y facilitando otros controles.
 descriptionLong: >
   Extracto vegetal con la capacidad de controlar, repeler y confundir plagas, con efectos subletales sobre ellas, disminuyendo su capacidad de alimentación y reproducción, y exponiéndolas a otros tipos de control.

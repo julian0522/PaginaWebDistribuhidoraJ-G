@@ -1,6 +1,6 @@
 ---
 name: Mexclater
-img: /public/productos/Mexclater.webp
+img: /productos/Mexclater.webp
 description: Coadyuvante agrícola que mejora la adherencia, humectación, dispersión y penetración de agroquímicos, protegiéndolos de la evaporación y pérdida, y favoreciendo su absorción rápida por las plantas.
 descriptionLong: >
   ADHERENTE - HUMECTANTE: Actúa como pegante y ayuda en la fijación del agroquímico sobre las partes de la planta, evitando el lavado por lluvias, viento y evaporación por el sol. Facilita el mojado de las plantas, permitiendo que las hojas sean cubiertas con una capa fina y uniforme del producto aplicado.

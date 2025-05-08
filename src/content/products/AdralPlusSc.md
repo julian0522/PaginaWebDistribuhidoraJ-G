@@ -1,6 +1,6 @@
 ---
 name: Adral Plus Sc
-img: /public/productos/AdralPlusSc.webp
+img: /productos/AdralPlusSc.webp
 description: Insecticida producido con una cepa patógena natural y selectiva de Beauveria bassiana, capaz de parasitar insectos del orden Coleóptero principalmente
 descriptionLong: >
   Es un insecticida producido con una cepa patógena natural y selectiva de Beauveria bassiana, capaz de parasitar insectos del orden Coleóptero principalmente. Cuando las esporas entran en contacto con el cuerpo del insecto, germinan e invaden al huésped a través de la cutícula mediante enzimas que la degradan.

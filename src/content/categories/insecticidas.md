@@ -1,4 +1,4 @@
 ---
 name: Insecticidas
-img: /public/categorias/Insecticidas.webp
+img: /categorias/Insecticidas.webp
 ---

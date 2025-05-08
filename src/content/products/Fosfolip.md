@@ -1,6 +1,6 @@
 ---
 name: Fosfolip
-img: /public/productos/Fosfolip.webp
+img: /productos/Fosfolip.webp
 description: Biofertilizante e inoculante que mejora la absorción de fósforo en la planta, solubiliza el fósforo fijado en el suelo y optimiza la eficiencia de los fertilizantes químicos aplicados.
 descriptionLong: >
   Es un biofertilizante e inoculante al suelo elaborado con una cepa de Penicillium janthinellum que facilita la absorción del fósforo en la planta. La cepa del producto, a través de sus procesos metabólicos, solubiliza el fósforo fijado e inmovilizado en el suelo y lo deja disponible para la planta.

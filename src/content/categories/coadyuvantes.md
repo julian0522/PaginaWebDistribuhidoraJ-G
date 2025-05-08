@@ -1,4 +1,4 @@
 ---
 name: Coadyuvantes
-img: /public/categorias/Coadyuvantes.webp
+img: /categorias/Coadyuvantes.webp
 ---

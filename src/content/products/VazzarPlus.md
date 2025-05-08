@@ -1,6 +1,6 @@
 ---
 name: Vazzar Plus
-img: /public/productos/VazzarPlus.webp
+img: /productos/VazzarPlus.webp
 description: Fertilizante orgánico soluble que mejora el suelo, estimula el desarrollo de raíces y favorece la germinación en todo tipo de cultivos.
 descriptionLong: >
   Es un fertilizante orgánico, totalmente soluble en agua, diseñado para incorporarse al suelo. Puede ser inyectado en la zona de raíces o aplicado en cualquier tipo de riego, en todo tipo de cultivo y en cualquier momento de su ciclo vegetativo.

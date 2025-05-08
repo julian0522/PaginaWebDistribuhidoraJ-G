@@ -1,6 +1,6 @@
 ---
 name: Farmix Extractos
-img: /public/productos/FarmixExtractos.webp
+img: /productos/FarmixExtractos.webp
 description: Extracto natural de canela, magnolia, tomillo y ají, eficaz en el control de enfermedades y esporas de hongos.
 descriptionLong: >
   Extracto a base de canela, magnolia, tomillo y ají, ideal para el control de enfermedades. Gracias a su formulación especial, permite un control eficaz sobre las esporas del hongo.

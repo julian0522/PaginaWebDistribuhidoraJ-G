@@ -1,6 +1,6 @@
 ---
 name: Raxter Mix Wp
-img: /public/productos/RaxterMixWp.webp
+img: /productos/RaxterMixWp.webp
 description: Insecticida natural basado en cepas selectivas, efectivo contra insectos de varios órdenes.
 descriptionLong: >
   Es un insecticida producido con una cepa patógena natural y selectiva de Metarhizium anisopliae, Beauveria bassiana, Bacillus thuringiensis y Bacillus popilliae, capaz de parasitar insectos del orden Homóptera, Hemíptera y Coleóptera principalmente.

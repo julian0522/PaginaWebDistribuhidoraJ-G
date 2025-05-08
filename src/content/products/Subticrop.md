@@ -1,6 +1,6 @@
 ---
 name: Subticrop
-img: /public/productos/Subticrop.webp
+img: /productos/Subticrop.webp
 description: Fungicida microbial con Bacillus subtilis, 100% natural y no modificado genéticamente.
 descriptionLong: >
   Es un fungicida microbial producido con una cepa patógena natural y selectiva de Bacillus subtilis.

@@ -1,6 +1,6 @@
 ---
 name: Trombo Wp
-img: /public/productos/TromboWp.webp
+img: /productos/TromboWp.webp
 description: Producto que acelera la descomposición, compostaje y control de enfermedades fungosas, con microorganismos naturales, no modificados genéticamente ni patógenos.
 descriptionLong: >
   Diseñado para acelerar la descomposición, compostaje y control de enfermedades fungosas. Los microorganismos presentes no están genéticamente modificados, no son patógenos y son 100% naturales.

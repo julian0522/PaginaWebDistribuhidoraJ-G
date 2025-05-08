@@ -1,6 +1,6 @@
 ---
 name: Ziper Suac
-img: /public/productos/ZiperSuac.webp
+img: /productos/ZiperSuac.webp
 description: Fertilizante con boro y zinc quelatados, de rápida asimilación, apto para suelos ácidos y aplicaciones vía suelo o fertirrigación.
 descriptionLong: >
   Es un fertilizante con elementos menores quelatados, rápidamente asimilables por la planta. Fuente soluble de boro y zinc, para uso al suelo o por sistema de fertirrigación. 

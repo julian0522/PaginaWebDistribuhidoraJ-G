@@ -1,6 +1,6 @@
 ---
 name: Fertibiofort
-img: /public/productos/FERTIBIOFORT.webp
+img: /productos/FERTIBIOFORT.webp
 description: Acondicionador de suelos organico el cual favorece la disponibilidad de los macro y micro elementos presentes en el suelo.
 descriptionLong: >
   Fertibiofort es un acondicionador de suelos orgánico el cual favorece la disponibilidad de los macro y micro elementos presentes en el suelo.
