@@ -1,0 +1,55 @@
+---
+import Layout from "../layouts/Layout.astro";
+import VisionMision from "../sections/VisionMision.astro";
+title: "Sobre Nosotros";
+---
+
+<Layout>
+  <section class="py-20 px-10 bg-white">
+    <div class="max-w-5xl mx-auto grid grid-cols-1  md:grid-cols-2">
+      <!--Imagen -->
+      <div class="order-2 md:order-2 mt-5">
+        <img src="/public/fotomarca.jpg" alt="Imagen Marca" class="w-full max-w-xs h-auto mx-auto rounded-2xl">
+      </div>
+      <!--Contenido -->
+      <div class="order-1 md:order-1">
+        <h1 class="text-4xl font-bold text-primary-50 mb-6 text-center">
+          Sobre Nosotros
+        </h1>
+        <p class="text-lg text-gray-700 mb-10 text-cente">
+          Somos una empresa comprometida con el desarrollo agrícola sostenible en
+          Colombia.
+        </p>
+  
+        <div class="grid md:grid-cols-2 gap-12">
+          <div>
+            <h2 class="text-2xl font-semibold text-primary-100 mb-4">
+              Nuestra Historia
+            </h2>
+            <p class="text-justify">
+              Distribuidora Agrícola J&G SAS nació con la misión de llevar
+              productos de calidad al campo colombiano. Desde nuestros inicios,
+              hemos trabajado de la mano con agricultores, promoviendo prácticas
+              responsables y el uso de tecnologías apropiadas.
+            </p>
+          </div>
+  
+          <div>
+            <h2 class="text-2xl font-semibold text-primary-100 mb-4">
+              Nuestros Valores
+            </h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+              <li>Compromiso con el medio ambiente</li>
+              <li>Calidad en cada producto</li>
+              <li>Servicio al cliente cercano y personalizado</li>
+              <li>Innovación constante</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Seccion de Mision y Vision -->
+  <VisionMision bgClass="bg-secondary-100" bgtext="text-primary-50"/>
+</Layout>

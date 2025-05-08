@@ -1,0 +1,126 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+title: "Contacto";
+---
+
+<Layout>
+  <section
+    class="relative py-20 px-4 bg-[url('/public/fotohero.webp')] bg-no-repeat bg-center bg-fixed h-screen overflow-hidden"
+  >
+    <!-- Overlay verde con opacidad -->
+    <div class="absolute inset-0 bg-primary-50 opacity-65 z-10"></div>
+
+    <div class="relative max-w-3xl mx-auto text-center z-20">
+      <h1 class="text-5xl text-secondary-100 mb-4 font-extrabold">
+        Contáctanos
+      </h1>
+      <p class="mb-8 text-secondary-100 text-xl">
+        Déjanos tu mensaje y nos pondremos en contacto contigo lo antes posible,
+        Tambien puedes contactarnos por Whatsapp presionando el boton que se
+        encuentra abajo a la derecha de tu pantalla.
+      </p>
+
+      <form
+        action="https://formsubmit.co/"
+        method="POST"
+        class="grid gap-6 text-left"
+      >
+        <div>
+          <label
+            for="nombre"
+            class="text-lg block mb-1 font-medium text-white bg-secondary-100 rounded-3xl w-45 pl-3"
+          >
+            Nombre
+          </label>
+          <input
+            id="nombre"
+            name="nombre"
+            type="text"
+            class="w-full border border-gray-300 p-3 rounded-xl"
+            required
+          />
+        </div>
+
+        <div>
+          <label
+            for="email"
+            class="text-lg block mb-1 font-medium text-white bg-secondary-100 rounded-3xl w-45 pl-3"
+          >
+            Correo electrónico
+          </label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            class="w-full border border-gray-300 p-3 rounded-xl"
+            required
+          />
+        </div>
+
+        <div>
+          <label
+            for="mensaje"
+            class="text-lg block mb-1 font-medium text-white bg-secondary-100 rounded-3xl w-45 pl-3"
+          >
+            Mensaje
+          </label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="5"
+            class="w-full border border-gray-300 p-3 rounded-xl"
+            required></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class=" text-lg bg-secondary-50 text-white py-3 px-6 rounded-xl hover:bg-secondary-100 w-45"
+        >
+          Enviar mensaje
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <section class="bg-white py-20 px-4">
+    <h2 class="text-secondary-50 text-4xl text-center mb-10">Información de Contacto</h2>
+    <div class="grid grid-cols-1 text-center md:grid-cols-2 gap-0">
+      <div>
+        <h3 class="text-secondary-100 text-3xl mb-5">Ventas Tolima Zona Sur</h3>
+        <ul class="text-xl">
+          <li>📞 +57 318 2678487</li>
+          <li>📧 wilmercomercialsur@agricolasjyg.com</li>
+          <li>📍 Ibagué, Colombia</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-secondary-100 text-3xl mb-5">Ventas a Nivel Nacional</h3>
+        <ul class="text-xl">
+          <li>📞 +57 310 8110572</li>
+          <li>📧 facturacion@agricolasjyg.com</li>
+          <li>📍 Ibagué, Colombia</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-secondary-100">
+    <!-- Mapa de Google -->
+    <h2 class="pt-5 text-4xl text-primary-50 text-center">¿Donde Ubicarnos?</h2>
+    <div class="py-15 max-w-4xl mx-auto px-4">
+      <div
+        class="w-full h-0 pb-[56.25%] relative rounded-2xl overflow-hidden shadow-lg"
+      >
+        <iframe
+          class="absolute top-0 left-0 w-full h-full rounded-2xl"
+          src="https://www.google.com/maps?q=4.433766820219364, -75.22155050109453&z=17&output=embed"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </div>
+  </section>
+</Layout>

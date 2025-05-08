@@ -1,11 +1,81 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Hero from "../sections/Hero.astro";
+import Layout from "../layouts/Layout.astro";
+import Empresa from "../sections/Empresa.astro";
+import Categorias from "../sections/Categorias.astro";
+import VisionMision from "../sections/VisionMision.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <!-- Hero principal -->
+  <Hero />
+
+  <!-- Sección de productos destacados -->
+  <section class="relative py-16 bg-secondary-100 h-[700px]">
+    <!-- Gradiente difuminado hacia abajo -->
+    <div
+      class="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-b from-transparent to-secondary-100"
+    >
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-4 z-10">
+      <h2 class="text-4xl font-bold text-center text-primary-50 mb-10">
+        Nuestros Productos
+      </h2>
+      <div class="grid grid-cols-1 h-[430px]" transition:animate="slide">
+        <Categorias />
+      </div>
+      <div class="text-center mt-10">
+        <a href="/productos" class="text-green-700 hover:underline" title="Ver todos los productos agrícolas disponibles"
+          >Ver todos los productos →</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-b from-transparent to-white"
+    >
+    </div>
+  </section>
+
+  <!--Seccion de Mision y Vision -->
+  <VisionMision />
+
+  <!--Seccion de Empresa -->
+  <Empresa />
+
+  <!-- Sección de contacto -->
+  <section class="py-16 bg-secondary-100">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold text-primary-50 mb-6">
+        ¿Tienes preguntas?
+      </h2>
+      <p class="mb-6 text-2xl">
+        Estamos listos para ayudarte. Escríbenos y recibe asesoría
+        personalizada.
+      </p>
+      <a
+        href="/contacto"
+        class="bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition"
+      >
+        Ir a contacto
+      </a>
+    </div>
+
+    <!-- Mapa de Google -->
+    <div class="mt-10 max-w-4xl mx-auto px-4">
+      <div
+        class="w-full h-0 pb-[56.25%] relative rounded-2xl overflow-hidden shadow-lg"
+      >
+        <iframe
+          class="absolute top-0 left-0 w-full h-full rounded-2xl"
+          src="https://www.google.com/maps?q=4.433766820219364, -75.22155050109453&z=17&output=embed"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </div>
+  </section>
 </Layout>

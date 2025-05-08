@@ -1,0 +1,31 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import ProductosFiltrables from "../components/ProductosFiltrables";
+
+const categorias = await getCollection("categories");
+const productos = await getCollection("products");
+
+const categoriasFormateadas = categorias.map((c) => ({
+  id: c.id,
+  ...c.data,
+}));
+
+const productosFormateados = productos.map((p) => ({
+  id: p.id,
+  name: p.data.name,
+  img: p.data.img,
+  description: p.data.description,
+  category: {
+    id: p.data.category.id
+  },
+}));
+---
+
+<Layout>
+  <ProductosFiltrables
+    client:load
+    productos={productosFormateados}
+    categorias={categoriasFormateadas}
+  />
+</Layout>

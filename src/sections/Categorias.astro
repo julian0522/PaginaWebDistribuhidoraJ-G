@@ -1,0 +1,10 @@
+---
+import { getCollection } from "astro:content";
+
+import SwiperCategorias from "../components/SliderCategory.jsx";
+
+const categorias = await getCollection("categories");
+
+---
+
+<SwiperCategorias client:load categorias={categorias} />

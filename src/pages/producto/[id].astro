@@ -1,0 +1,203 @@
+---
+// src/pages/producto/[id].astro
+import { getCollection, getEntry, getEntryBySlug } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  const productos = await getCollection("products");
+
+  return productos.map((producto) => ({
+    params: { id: producto.id },
+    props: { producto },
+  }));
+}
+
+const { producto } = Astro.props;
+const { data, slug } = producto;
+
+const {
+  name,
+  category,
+  segmento,
+  img,
+  descriptionLong,
+  caracteristicas,
+  presentacion,
+  technicalSheet,
+} = data;
+
+---
+
+<Layout>
+  
+  <section class="max-w-6xl mx-auto px-4 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start mx-20">
+      <!--* Imagen del producto -->
+      <div class="w-full flex justify-center">
+        <img
+          src={img}
+          alt={name}
+          class="w-96 h-96 object-contain rounded-md shadow"
+        />
+      </div>
+
+      <!--? Información del producto -->
+      <div class="space-y-6">
+        <!--* Título -->
+        <h1 class="text-4xl font-bold text-secondary-50">{name}</h1>
+        <hr class="bg-gray-400 text-primary-50 border-2" />
+
+        <!--* Descripción -->
+        <div>
+          <h2 class="text-xl font-semibold text-black mb-1">Descripción:</h2>
+          {
+            descriptionLong
+              .split("\n")
+              .map((parrafo) => (
+                <p class="text-gray-600 leading-relaxed mb-2 text-lg">{parrafo}</p>
+              ))
+          }
+        </div>
+
+        <!--* Estado, categoría u otra info -->
+        <div
+          class="flex items-center gap-4 text-sm text-black-500 font-semibold"
+        >
+          <span>
+            <strong class="text-xl">Segmento:</strong>
+            <strong class="text-primary-50 text-lg">{segmento.toUpperCase()}</strong
+            ></span
+          >
+        </div>
+
+        <!--* Presentacion -->
+        <div
+          class="flex items-center gap-4 text-sm text-black-500 font-semibold"
+        >
+          <span>
+            <strong class="text-xl">Presentación:</strong>
+            <strong class="text-primary-50 text-xl">{presentacion}</strong
+            ></span
+          >
+        </div>
+
+        <!--? Acordeon de Informacion -->
+        <div
+          id="accordion-flush"
+          data-accordion="open"
+          data-active-classes="bg-white"
+          data-inactive-classes="text-gray-500 dark:text-gray-400"
+        >
+          <h2 id="accordion-flush-heading-1">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+              data-accordion-target="#accordion-flush-body-1"
+              aria-expanded="true"
+              aria-controls="accordion-flush-body-1"
+            >
+              <span class="text-xl">Caracteristicas</span>
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"></path>
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-flush-body-1"
+            class="hidden"
+            aria-labelledby="accordion-flush-heading-1"
+          >
+            <div
+              class="py-5 px-10 border-b border-gray-200 dark:border-gray-700 text-gray-800 dark:text-black-400 dark:font-medium"
+            >
+              <ul>
+                {
+                  caracteristicas.map((caracteristica) => (
+                    <li class="text-lg"> - {caracteristica}</li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+
+          <h2 id="accordion-flush-heading-2">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+              data-accordion-target="#accordion-flush-body-2"
+              aria-expanded="false"
+              aria-controls="accordion-flush-body-2"
+            >
+              <span class="text-xl">Ficha Tecnica</span>
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"></path>
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-flush-body-2"
+            class="hidden"
+            aria-labelledby="accordion-flush-heading-2"
+          >
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <img src="" alt="Ficha Tecnica">
+              <div class="flex justify-end">
+                <button class="btn mt-4 bg-secondary-100 text-primary-50 px-2 py-2 rounded-xl transform duration-600 hover:-translate-y-2 shadow flex items-center gap-2 w-fit">Ver Ficha Tecnica</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botón de acción -->
+
+        <div class="pt-4">
+          <a
+            href={`https://wa.me/573108110572?text=Hola!%20Quisiera%20más%20información%20sobre%20el%20producto%20${name}`}
+            target="_blank"
+            class="btn bg-primary-50 text-white px-4 py-3 rounded-xl text-lg transform duration-600 hover:-translate-y-2 shadow flex items-center gap-2 w-fit"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0,0,256,256"
+            >
+              <g fill="#eace7c"
+                ><g transform="scale(10.66667,10.66667)">
+                  <path
+                    d="M19.077,4.928c-1.886,-1.887 -4.394,-2.927 -7.066,-2.928c-5.506,0 -9.987,4.479 -9.989,9.985c-0.001,1.76 0.459,3.478 1.333,4.992l-1.355,5.023l5.233,-1.237c1.459,0.796 3.101,1.215 4.773,1.216h0.004c5.505,0 9.986,-4.48 9.989,-9.985c0.002,-2.669 -1.036,-5.178 -2.922,-7.066zM16.898,15.554c-0.208,0.583 -1.227,1.145 -1.685,1.186c-0.458,0.042 -0.887,0.207 -2.995,-0.624c-2.537,-1 -4.139,-3.601 -4.263,-3.767c-0.125,-0.167 -1.019,-1.353 -1.019,-2.581c0,-1.228 0.645,-1.832 0.874,-2.081c0.229,-0.25 0.499,-0.312 0.666,-0.312c0.166,0 0.333,0 0.478,0.006c0.178,0.007 0.375,0.016 0.562,0.431c0.222,0.494 0.707,1.728 0.769,1.853c0.062,0.125 0.104,0.271 0.021,0.437c-0.083,0.166 -0.125,0.27 -0.249,0.416c-0.125,0.146 -0.262,0.325 -0.374,0.437c-0.125,0.124 -0.255,0.26 -0.11,0.509c0.146,0.25 0.646,1.067 1.388,1.728c0.954,0.85 1.757,1.113 2.007,1.239c0.25,0.125 0.395,0.104 0.541,-0.063c0.146,-0.166 0.624,-0.728 0.79,-0.978c0.166,-0.25 0.333,-0.208 0.562,-0.125c0.229,0.083 1.456,0.687 1.705,0.812c0.25,0.125 0.416,0.187 0.478,0.291c0.062,0.103 0.062,0.603 -0.146,1.186z"
+                  ></path>
+                </g></g
+              >
+            </svg>
+            Pregunta por este producto !
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
