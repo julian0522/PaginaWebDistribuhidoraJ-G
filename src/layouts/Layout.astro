@@ -25,7 +25,8 @@ const keywords = "insumos agrícolas, fertilizantes, plaguicidas, semillas, agri
     <meta name="generator" content={Astro.generator} />
 
     <!--Script para inicializar flowbite cada vez que se cambie de pagina hay que hacerlo manualmente debido al uso de transitions en astro -->
-    <script type="module" src="/src/scripts/initFlowBite.js"></script>
+    <script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script type="module" src="/scripts/initFlowBite.js"></script>
 
     <ClientRouter />
   </head>
