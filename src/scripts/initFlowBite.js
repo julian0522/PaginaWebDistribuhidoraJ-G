@@ -1,4 +1,11 @@
-import { initAccordions, initDropdowns, initModals, initTabs, initTooltips } from 'flowbite';
+import {
+  initAccordions,
+  initDropdowns,
+  initModals,
+  initTabs,
+  initTooltips,
+  initCollapses // ← Añade esto
+} from 'flowbite';
 
 // Inicializa Flowbite
 function initFlowbite() {
