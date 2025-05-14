@@ -1,7 +1,7 @@
 ---
-name: Arrocil Calcio
-img: /productos/ArrocilCalcio.webp
-description: biofertilizante que combina magnesio, silicio, calcio y potasio para mejorar la fotosíntesis, fortalecer tallos y raíces, aumentar la resistencia a enfermedades y regular la acidez y salinidad del suelo.
+name: Arrosil Calcio
+img: /productos/Arrosil.webp
+description: Biofertilizante que combina magnesio, silicio, calcio y potasio para mejorar la fotosíntesis, fortalecer tallos y raíces, aumentar la resistencia a enfermedades y regular la acidez y salinidad del suelo.
 descriptionLong: >
     El magnesio presente en Arrosil estimula la asimilación del fósforo y es determinante en el proceso fotosintético, ya que forma parte y es el único componente mineral de la molécula de clorofila. El magnesio, junto con silicio, calcio y potasio, genera resistencia en las plantas frente a diversas enfermedades fungosas. 
     
