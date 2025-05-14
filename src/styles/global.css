@@ -11,10 +11,17 @@
   --color-secondary-100: #EACE7C;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Oduda';
-  src: url('/src/fonts/Oduda-Bold-Demo.otf') format('truetype'); /* o .otf */
+  src: url('/src/fonts/Oduda-Bold-Demo.otf') format('truetype');
   font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('/src/fonts/NexaBold.otf') format('opentype');
+  font-weight: bolder;
   font-style: normal;
 }
 

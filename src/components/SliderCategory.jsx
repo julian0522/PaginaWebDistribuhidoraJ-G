@@ -104,7 +104,7 @@ export default function SwiperCategorias({ categorias }) {
                   </p>
                   <div className="flex justify-center">
                     <a
-                      className="inline-flex px-3 py-2 text-sm w-34 font-medium rounded-2xl see-button bg-orange-300"
+                      className="inline-flex px-3 py-3 text-md w-45 font-medium rounded-2xl see-button bg-orange-300"
                       onClick={() => {
                         sessionStorage.setItem("categoriaSeleccionada", category.id);
                         window.location.href = "/productos";

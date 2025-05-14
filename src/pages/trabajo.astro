@@ -5,78 +5,24 @@ title: "Trabaja con Nosotros";
 ---
 
 <Layout>
-    <section class="relative py-20 px-4 bg-[url('/imagentrabajador.webp')] bg-no-repeat bg-center bg-fixed h-screen overflow-hidden">
+    <section class="relative py-20 px-4 bg-[url('/imagentrabajador.webp')] bg-no-repeat bg-center bg-fixed min-h-screen overflow-hidden">
          <!-- Overlay verde con opacidad -->
     <div class="absolute inset-0 bg-primary-50 opacity-65 z-10"></div>
 
 
-    <div class="relative max-w-3xl mx-auto text-center z-20">
+    <div class="relative max-w-3xl sm:mx-auto text-center z-20 mx-5">
         <h1 class="text-5xl text-secondary-100 mb-4 font-extrabold">
           Trabaja con nosotros
         </h1>
-        <p class="mb-8 text-secondary-100 text-xl">
-            Si te interesa unirte a nuestro grupo de trabajo y construir junto a nosotros el campo colombiano escribemos y envianos tu hoja de vida
+        <p class="mb-8   sm:text-2xl text-justify bg-secondary-100 rounded-2xl py-3 px-4 text-xl">
+            En Distribuidora Agrícola J&G SAS creemos en el poder del campo colombiano y en el talento de su gente. Somos una empresa joven, con visión de crecimiento, innovación y compromiso con el medio ambiente. 
+            Buscamos personas apasionadas, responsables y con ganas de crecer junto a nosotros, apoyando al agricultor con soluciones eficientes, productos de alta calidad y una asesoría cercana que transforma realidades.<br><br>
+            Si compartes nuestros valores, quieres dejar huella en el agro colombiano y ser parte de una empresa que trabaja cada día con propósito, ¡este es tu lugar!, contactanos al siguiente correo y envianos tu hoja de vida:
+            <br><br>
+            
         </p>
-  
-        <form
-          action="https://formsubmit.co/"
-          method="POST"
-          class="grid gap-6 text-left"
-        >
-          <div>
-            <label
-              for="nombre"
-              class="text-lg block mb-1 font-medium text-white bg-secondary-100 rounded-3xl w-45 pl-3"
-            >
-              Nombre
-            </label>
-            <input
-              id="nombre"
-              name="nombre"
-              type="text"
-              class="w-full border border-gray-300 p-3 rounded-xl"
-              required
-            />
-          </div>
-  
-          <div>
-            <label
-              for="email"
-              class="text-lg block mb-1 font-medium text-white bg-secondary-100 rounded-3xl w-45 pl-3"
-            >
-              Correo electrónico
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              class="w-full border border-gray-300 p-3 rounded-xl"
-              required
-            />
-          </div>
-  
-          <div>
-            <label
-              for="mensaje"
-              class="text-lg block mb-1 font-medium text-white bg-secondary-100 rounded-3xl w-45 pl-3"
-            >
-              Hoja de Vida
-            </label>
-            <textarea
-              id="mensaje"
-              name="mensaje"
-              rows="5"
-              class="w-full border border-gray-300 p-3 rounded-xl"
-              required></textarea>
-          </div>
-  
-          <button
-            type="submit"
-            class=" text-lg bg-secondary-50 text-white py-3 px-6 rounded-xl hover:bg-secondary-100 w-45"
-          >
-            Enviar mensaje
-          </button>
-        </form>
+        <span class="text-primary-50 sm:text-3xl rounded-2xl bg-secondary-100 p-2 text-xl">📧 talentohumano@agricolasjyg.com</span>
+        
       </div>
     </section>
 </Layout>

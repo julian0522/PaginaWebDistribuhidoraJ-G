@@ -37,7 +37,7 @@ const {
         <img
           src={img}
           alt={name}
-          class="w-96 h-96 object-contain rounded-md shadow"
+          class="w-100 h-100 object-contain rounded-md shadow md:mt-25"
         />
       </div>
 
@@ -49,12 +49,12 @@ const {
 
         <!--* Descripción -->
         <div>
-          <h2 class="text-xl font-semibold text-black mb-1">Descripción:</h2>
+          <h2 class="text-xl font-bold text-black mb-1 ">Descripción:</h2>
           {
             descriptionLong
               .split("\n")
               .map((parrafo) => (
-                <p class="text-gray-600 leading-relaxed mb-2 text-lg">{parrafo}</p>
+                <p class="text-gray-600 leading-relaxed mb-2 text-lg text-justify">{parrafo}</p>
               ))
           }
         </div>
