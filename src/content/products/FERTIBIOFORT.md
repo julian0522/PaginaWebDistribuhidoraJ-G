@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 50Kg
 segmento: Fertilizante Granulado
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/FertiBiofort.webp
+  url: https://drive.google.com/file/d/1_Rv1qx09FjEotC3gDz0CzKg-7IZ5ijXA/view
 category: fertilizantesOrganicos.md
 caracteristicas:
   - Presentacion de 50Kg

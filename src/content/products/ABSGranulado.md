@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 50Kg
 segmento: Fertilizante Granulado
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/AbsGranulado.png
+  url: https://drive.google.com/file/d/14YPh5squQL0Ab9qxBeaM6TYT02yj7skU/view
 category: fertilizantesOrganicos.md
 caracteristicas:
   - Presentacion de 50Kg.

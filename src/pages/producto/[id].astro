@@ -164,9 +164,9 @@ const {
             aria-labelledby="accordion-flush-heading-2"
           >
             <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-              <img src="" alt="Ficha Tecnica">
+              <img src={technicalSheet.img} alt="Ficha Tecnica" class="max-w-full rounded-2xl" />
               <div class="flex justify-end">
-                <button class="btn mt-4 bg-secondary-100 text-primary-50 px-2 py-2 rounded-xl transform duration-600 hover:-translate-y-2 shadow flex items-center gap-2 w-fit">Ver Ficha Tecnica</button>
+                <a href={technicalSheet.url} target="_blank" class="btn mt-4 bg-secondary-100 text-primary-50 px-2 py-2 rounded-xl transform duration-600 hover:-translate-y-2 shadow flex items-center gap-2 w-fit">Ver Ficha Tecnica</a>
               </div>
             </div>
           </div>
