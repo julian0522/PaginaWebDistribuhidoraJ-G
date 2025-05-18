@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1L-Galon-20L
 segmento: Bioestimulante
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/AminqFol.webp
+  url: https://drive.google.com/file/d/1RnnmTMS58kSHRt8CqM4PXEtQAGsnlStc/view
 category: bioestimulantes.md
 caracteristicas:
   - Presentacion de 1L-Galon-20L

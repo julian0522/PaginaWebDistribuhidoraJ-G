@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 200 GRAMOS / 500 GRAMOS / 1 KILO Y 20 KILOS
 segmento: Insecticida biologico
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/RaxterMixWp.webp
+  url: https://drive.google.com/file/d/1zSRAbnSvSwsMp1o1bO8SJROxidWEG9WT/view
 category: insecticidas.md
 caracteristicas:
   - Presentacion de 200 GRAMOS / 500 GRAMOS / 1 KILO Y 20 KILOS

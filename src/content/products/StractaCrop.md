@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1 Litro / Galon / 4L y 20 Litros
 segmento: Acaricida Extracto
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/StractaCrop.webp
+  url: https://drive.google.com/file/d/1B311rq93yWmaEo5eovuN2v5JVHvoX2G-/view
 category: acaricidas.md
 caracteristicas:
   - Presentacion de 1 Litro / Galon / 4L y 20 Litros

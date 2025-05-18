@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 500 GRAMOS / 1 KILO / 20 KILOS
 segmento: Descomponedores y compostadores
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/TromboWp.webp
+  url: https://drive.google.com/file/d/1J5XVzVhuLExSFLzTPddJ2-AY0XsqOOxM/view
 category: biofertilizantesDescomponedores.md
 caracteristicas:
   - Presentacion de 500 GRAMOS / 1 KILO / 20 KILOS

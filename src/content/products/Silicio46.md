@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 50Kg
 segmento: Fertilizante Granulado
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Silicio46.webp
+  url: https://drive.google.com/file/d/1nyhjpUv43lwDHE8d051vRVM5KWwp3ivW/view
 category: fertilizantesGranulados.md
 caracteristicas:
   - Presentacion de 50Kg

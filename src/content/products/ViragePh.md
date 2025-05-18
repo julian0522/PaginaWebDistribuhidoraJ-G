@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 200 CC / 1LTS Y 20 LTS
 segmento: COADYUVANTE
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/ViragePh.webp
+  url: https://drive.google.com/file/d/1BeR3Gp7sPufAhJdDx9aJiuT3C4PAbK_b/view
 category: coadyuvantes.md
 caracteristicas:
   - Presentacion de 200 CC / 1LTS Y 20 LTS

@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 500 Gramos y 1 kilo
 segmento: Insecticida biologico
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/BakTurWp.webp
+  url: https://drive.google.com/file/d/1FBB8aT1LS1G79P9rnqbgAXyNvGKHeOwF/view
 category: insecticidas.md
 caracteristicas:
   - Presentacion de 500 Gramos y 1 kilo

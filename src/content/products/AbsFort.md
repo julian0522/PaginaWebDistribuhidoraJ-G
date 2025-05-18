@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1 LITRO / GALON / 20 LTS
 segmento: Biofertilizante
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/AbsFort.webp
+  url: https://drive.google.com/file/d/19XVBtBBbNZUhMqSr3GHfOVg60CXZUEKC/view
 category: biofertilizantesDescomponedores.md
 caracteristicas:
   - Presentacion de 1 LITRO / GALON / 20 LTS

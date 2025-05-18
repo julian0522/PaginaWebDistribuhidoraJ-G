@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 50Kg
 segmento: Fertilizante Granulado
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Menthor.webp
+  url: https://drive.google.com/file/d/1R8QbwQvOqhFvx6BQLhRRt3j6GFgAgKc0/view
 category: fertilizantesGranulados.md
 caracteristicas:
   - Presentacion de 50Kg

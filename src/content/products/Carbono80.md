@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1L-4L-20L-200L
 segmento: Bioestimulante
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Carbono80.webp
+  url: https://drive.google.com/file/d/1EClphhTHprRit7N_wbt-efQYRuJoD1C7/view
 category: bioestimulantes.md
 caracteristicas:
   - Presentacion de 1L-4L-20L-200L

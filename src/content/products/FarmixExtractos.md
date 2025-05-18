@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1 LITRO / GALON / 4LTS / Y 20 LTS
 segmento: Fungicida extracto vegetal
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/FarmixExtractos.webp
+  url: https://drive.google.com/file/d/1T5aQ-4vcZr4bEJ2YcPOt0-v8cHfJc9lS/view
 category: fungicidas.md
 caracteristicas:
   - Presentacion de 1 LITRO / GALON / 4LTS / Y 20 LTS

@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 1L-Galon-20L
 segmento: Fertilizante Foliar
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Cañacrop.webp
+  url: https://drive.google.com/file/d/1WziO04Ly8imp9u0wiDTwQ0sEVQHs_3VO/view
 category: fertilizantesFoliares.md
 caracteristicas:
   - Presentacion de 1L-Galon-20L

@@ -15,8 +15,8 @@ PENETRANTE: Ayuda a que los herbicidas, insecticidas, fungicidas, fertilizantes 
 presentacion: 1LT / Galon / 4LTS / 20 LTS Y 60 LTS
 segmento: COADYUVANTE
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Mexclater.webp
+  url: https://drive.google.com/file/d/1-9bAqlXoGks6KgRHNdtQxfOwa_n6F_Rv/view
 category: coadyuvantes.md
 caracteristicas:
   - Presentacion de 1LT / Galon / 4LTS / 20 LTS Y 60 LTS

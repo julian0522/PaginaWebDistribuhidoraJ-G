@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 1 LITRO / GALON / 20 LTS
 segmento: Biofertilizante
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/NufosolPlus.webp
+  url: https://drive.google.com/file/d/1V1zokSkdkLuwO79q3mzglUD-DCXsQPaW/view
 category: biofertilizantesDescomponedores.md
 caracteristicas:
   - Presentacion de 1 LITRO / GALON / 20 LTS

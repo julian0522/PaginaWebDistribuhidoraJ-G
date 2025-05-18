@@ -13,8 +13,8 @@ descriptionLong: >
 presentacion: 46Kg
 segmento: Fertilizante Granulado
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/ArrocilCalcio.webp
+  url: https://drive.google.com/file/d/15YMasKpXKVwKcaNRl6-aj-tOHhCvOZv_/view
 category: fertilizantesGranulados.md
 caracteristicas:
   - Presentacion de 50Kg

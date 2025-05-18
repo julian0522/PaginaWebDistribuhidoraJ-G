@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 1 LITRO / GALON / 20 LTS
 segmento: Biofertilizante
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Fosfolip.webp
+  url: https://drive.google.com/file/d/167O_DORPWWQp1pJND9EMSXSyn44ox9Ny/view
 category: biofertilizantesDescomponedores.md
 caracteristicas:
   - Presentacion de 1 LITRO / GALON / 20 LTS

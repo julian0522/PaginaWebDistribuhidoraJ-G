@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1 Litro / Galon / 4L / y 20 L
 segmento: Nematicida Extracto Vegetal
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/SilverCrop.webp
+  url: https://drive.google.com/file/d/1XQEFb3D4b2ySY_kC0amJ60wxsGgRXyaq/view
 category: nematicidas.md
 caracteristicas:
   - Presentacion de 1 Litro / Galon / 4L / y 20 L

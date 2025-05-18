@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 500 CC / 1L / GALON / 20L
 segmento: Acaricida Biologico
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Acarex.webp
+  url: https://drive.google.com/file/d/1Q-3Vi5IYT1tMdhYBfgF7Z6SVzJNaW7gV/view
 category: acaricidas.md
 caracteristicas:
   - Presentacion de 500 CC / 1L / GALON / 20L

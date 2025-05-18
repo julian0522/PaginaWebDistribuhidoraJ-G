@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1L-Galon-20L
 segmento: Bioestimulante
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/GreenGo.webp
+  url: https://drive.google.com/file/d/1Yw2VqxRiM38-6yR7HQ5AAT38-YbKukWP/view
 category: bioestimulantes.md
 caracteristicas:
   - Presentacion de 1L-Galon-20L

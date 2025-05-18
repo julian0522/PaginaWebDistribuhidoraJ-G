@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 200 GRAMOS / 500 GRAMOS / 1Kg Y 20 Kg
 segmento: Nematicida Biologico
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/NemocropSc.webp
+  url: https://drive.google.com/file/d/1yFxIZMEcngiBepQGlqe9Dwb39PELzxcW/view
 category: nematicidas.md
 caracteristicas:
   - Presentacion de 200 GRAMOS / 500 GRAMOS / 1Kg Y 20 Kg

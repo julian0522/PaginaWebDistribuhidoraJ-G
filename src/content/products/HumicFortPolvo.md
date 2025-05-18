@@ -6,8 +6,8 @@ descriptionLong: HUMIC FORT es un acondicionador de suelos orgánico-mineral que
 presentacion: 50Kg
 segmento: Fertilizante en Polvo
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/HumicFortPolvo.webp
+  url: https://drive.google.com/file/d/1EV1aKjm8_-STUHJZ_5_rA-A-6ac2J9UI/view
 category: fertilizantesOrganicos.md
 caracteristicas:
   - Presentacion de 50Kg

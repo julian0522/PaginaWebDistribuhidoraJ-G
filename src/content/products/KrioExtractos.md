@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1 Litro / Galon 4L y 20 Litros
 segmento: Insecticida extracto vegetal
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/KrioExtractos.webp
+  url: https://drive.google.com/file/d/1v3fszQnpN69t6hh0QnYo2Lp-NmrOH55G/view
 category: insecticidas.md
 caracteristicas:
   - Presentacion de 1 Litro / Galon 4L y 20 Litros

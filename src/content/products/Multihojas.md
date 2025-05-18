@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1L-Galon-20L
 segmento: Fertilizante Foliar
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/MultiHojas.webp
+  url: https://drive.google.com/file/d/1YfjfF6jDen64C2GdKMVzrdY_KGVk5zz-/view
 category: fertilizantesFoliares.md
 caracteristicas:
   - Presentacion de 1L-Galon-20L

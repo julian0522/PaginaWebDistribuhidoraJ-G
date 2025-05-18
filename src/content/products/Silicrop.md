@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 250 CC / 1L / Galon / 4LTS / Y 20 LTS
 segmento: COADYUVANTE
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Silicrop.webp
+  url: https://drive.google.com/file/d/1LLBHjykgAgR8hxcGiVHh6ArS9Ctk_jTS/view
 category: coadyuvantes.md
 caracteristicas:
   - Presentacion de 250 CC / 1L / Galon / 4LTS / Y 20 LTS

@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 200 CC / 500 CC / 1 LITRO / 1 GALON / 20 LTS
 segmento: Insecticida biologico
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/AdralPlusSc.webp
+  url: https://drive.google.com/file/d/1WDvdycSSoVDHFwrX9UAPfFGCjyQcSwR-/view
 category: insecticidas.md
 caracteristicas:
   - Presentacion de 200 CC / 500 CC / 1 LITRO / 1 GALON / 20 LTS

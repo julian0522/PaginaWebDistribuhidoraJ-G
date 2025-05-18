@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1L-Galon-20L
 segmento: Fertilizante Foliar
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/AlgaCropMagnesio.webp
+  url: https://drive.google.com/file/d/1TBnLLkn0j8t0kfY-4bLGdztY86GX-4hk/view
 category: fertilizantesFoliares.md
 caracteristicas:
   - Presentacion de 1L-Galon-20L

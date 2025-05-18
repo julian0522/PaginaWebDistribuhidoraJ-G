@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 1LT / GALON / Y 20 LTS
 segmento: Fungicida-Bactericida biologico
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Bactrial.webp
+  url: https://drive.google.com/file/d/1OqLvPyoIsTT13hmzPCfFiRkw2m0Nkz5n/view
 category: fungicidas.md
 caracteristicas:
   - Presentacion de 1 Litro / Galon / 4L / y 20 L

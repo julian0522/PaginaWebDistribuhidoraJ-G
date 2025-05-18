@@ -9,8 +9,8 @@ descriptionLong: >
 presentacion: 1 LITRO / GALON / Y 20 LTS
 segmento: Fungicida biologico
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Subticrop.webp
+  url: https://drive.google.com/file/d/1wAks__7dF-g5IrTVpIs_YFrZhxEx8Guj/view
 category: fungicidas.md
 caracteristicas:
   - Presentacion de 1 LITRO / GALON / Y 20 LTS

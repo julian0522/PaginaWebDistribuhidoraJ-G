@@ -7,8 +7,8 @@ descriptionLong: >
 presentacion: 1 LITRO / GALON / Y 20 LTS
 segmento: Fungicida-Bactericida
 technicalSheet:
-  img: /img/tech.jpg
-  url: https://example.com
+  img: /fichas-tecnicas/Funbacter.webp
+  url: https://drive.google.com/file/d/17Lpui2zpFWZ-WIMEZ60gaGOt6DHH3JBu/view
 category: fungicidas.md
 caracteristicas:
   - Presentacion de 1 LITRO / GALON / Y 20 LTS
